@@ -31,7 +31,7 @@ Null records: 0.<br>
 [hours_trim.sql](InterviewProject_GentileMariano/task1/clean/scripts/hours_trim.sql), 
 [email_trim](InterviewProject_GentileMariano/task1/scripts/clean/email_trim.sql).<br>
 ### 4. DIMENSION
-Multidimensional models are not available in SQL Server Express Edition (see link below). As a workaround I created unique tables for each field's distinct value using the following script:
+As far as I could find Multidimensional Models are not available in SQL Server Express Edition (see link below). As a workaround I created unique tables for each field's distinct value using the following script:
 ```
 use rga;
 go
