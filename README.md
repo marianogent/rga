@@ -45,3 +45,12 @@ Null records: 0.<br>
 - Roster: [roster_table.xlsx](InterviewProject_GentileMariano/task1/tables/roster_table.xlsx)
 - Hours: [hours_table.xlsx](InterviewProject_GentileMariano/task1/tables/hours_table.xlsx)
 - Skills: [skills_table.xlsx](InterviewProject_GentileMariano/task1/tables/skills_table.xlsx)
+- Email: [email_data.csv](InterviewProject_GentileMariano/task1/tables/email_data.csv)
+
+## Task #2 - Create the dashboard
+The dashboard was generated in Power BI establishing a connection to de local Database created in the first step.
+[dashboard.pbix](InterviewProject_GentileMariano/task2/dashboard.pbix)
+
+## Task #3 - Data Analysis
+Document with the analysis of findings.
+[task3.docx](InterviewProject_GentileMariano/task3/task3.docx)
