@@ -31,6 +31,16 @@ Null records: 0.<br>
 [hours_trim.sql](InterviewProject_GentileMariano/task1/clean/scripts/hours_trim.sql), 
 [email_trim](InterviewProject_GentileMariano/task1/scripts/clean/email_trim.sql).<br>
 ### 4. DIMENSION
+Multidimensional models are not available in SQL Server Express Edition (see link below). As a workaround I created unique tables for each field's distinct value using the following script:
+```
+use rga;
+go
+SELECT distinct [fieldname]
+INTO dbo.[newtablename]
+from dbo.[table]
+```
+https://docs.microsoft.com/en-us/analysis-services/analysis-services-features-supported-by-the-editions-of-sql-server-2016#multidimensional-models
+
 ### 5. Alter the existing tables by adding the following fields.
 - Admin Hours: [alter_adminhrs.sql](InterviewProject_GentileMariano/task1/scripts/alter/alter_adminhrs.sql)
 - Cliente Hours: [alter_clienthrs.sql](InterviewProject_GentileMariano/task1/scripts/alter/alter_clienthrs.sql)
